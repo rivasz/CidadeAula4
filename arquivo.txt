@@ -1,4 +1,11 @@
 
-Primeira Linha de codigo
-Segunda linha
-3
+Git Status
+Git Log
+git commit -m "Criando a primeira linha de codigo"
+
+git reset HEAD~1
+(o numero depois do ~ significa quantos commits voltam)
+
+git remote add origin https://github.com/rivasz/CidadeAula4.git
+git branch -M main
+git push -u origin main
